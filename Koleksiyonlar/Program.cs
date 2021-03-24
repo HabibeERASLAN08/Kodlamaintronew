@@ -34,3 +34,5 @@ namespace Koleksiyonlar
     }
 }
 
+//control k + control c tümden yorum satırı c= comment
+//control k + control u tümden geri alma u=uncomment
