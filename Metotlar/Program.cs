@@ -16,7 +16,7 @@ namespace Metotlar
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;
             urun1.Aciklama = "Amasya elması";
-
+         
             Urun urun2 = new Urun();
             urun2.Adi = "Karpuz";
             urun2.Fiyati = 80;
@@ -24,7 +24,7 @@ namespace Metotlar
 
             Urun[] urunler = new Urun[] { urun1, urun2 };
 
-            //type-safe -- tip güvenli
+            //type-safe -- tip güvenli  ---best practise 
             foreach (var urun in urunler)
             {
                 Console.WriteLine(urun.Adi);

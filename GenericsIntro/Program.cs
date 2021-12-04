@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GenericsIntro
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
